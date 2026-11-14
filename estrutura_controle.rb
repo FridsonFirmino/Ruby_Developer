@@ -2,30 +2,30 @@
 
 # ESTRUTURA DE CONTROLE -> IF, ELSIF, ELSE
 
-# dia = "feriado"
+dia = "feriado"
 
-# if dia == "domingo"
-#     almoco = "especial"
-# elsif dia == "feriado"
-#     almoco = "mais tarde"
-# else
-#     almoco = "normal"
-# end
+if dia == "domingo"
+    almoco = "especial"
+elsif dia == "feriado"
+    almoco = "mais tarde"
+else
+    almoco = "normal"
+end
 
-# puts "Hoje o nosso almoço será #{almoco}"
+puts "Hoje o nosso almoço será #{almoco}"
 
 
 # ESTRUTURA DE CONTROLE -> UNLESS
 
-# dia = "domingo"
+dia = "domingo"
 
-# unless dia == "domingo"
-#     almoco = "normal"
-# else
-#     almoco = "especial"
-# end
+unless dia == "domingo"
+    almoco = "normal"
+else
+    almoco = "especial"
+end
 
-# puts "Hoje o nosso almoço será #{almoco}"
+puts "Hoje o nosso almoço será #{almoco}"
 
 # ESTRUTURA DE CONTROLE -> CASE
 
