@@ -1,0 +1,21 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    cpf_cnpj (1.1.0)
+    os (1.1.4)
+
+PLATFORMS
+  ruby
+  x86_64-linux-gnu
+
+DEPENDENCIES
+  cpf_cnpj (>= 1.1)
+  os
+
+CHECKSUMS
+  bundler (4.0.24) sha256=16ca64e20816a0cf151a948fb141d788602996d2b4d73577b74388fe84fa98bc
+  cpf_cnpj (1.1.0) sha256=42fb902045b61819160555d5c7b47a951a39fc9d6a1c995909e3360d6ef7857b
+  os (1.1.4) sha256=57816d6a334e7bd6aed048f4b0308226c5fb027433b67d90a9ab435f35108d3f
+
+BUNDLED WITH
+  4.0.24
