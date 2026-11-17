@@ -1,0 +1,3 @@
+class SaldoInsuficienteError < StandardError
+  
+end
