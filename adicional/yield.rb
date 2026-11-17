@@ -5,22 +5,27 @@
 =end
 
 def my_map(array)
+  return array.to_enum unless block_given?
+
   resutado = []
 
-  array.each do |item|
+  my_each(array) do |item|
     resutado << yield(item)
   end
   resutado
 end
 
 def my_each(array)
+  return array.to_enum unless block_given?
+  
   for item in array
     yield(item)
   end
+  array
 end
 
 novo_array = my_map([1, 2, 3, 4, 5]) do |x|
-  x + 1
+  
 end
 
 print novo_array
